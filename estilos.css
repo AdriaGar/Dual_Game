@@ -89,14 +89,17 @@ footer {
 form {
     background: #5698ea;
     width: 45%;
-    float: left;
+    float: right;
     margin-right: 5%;
-    height: 25em;
-
+    height: 22em;
+    border-radius:10px;
+    margin-bottom:1em;
 }
 
 form#IniciarSessió {
     background-color: #5698ea;
+    height: 15em;
+
 }
 
 div.textregistre, div.campsregistre {
@@ -107,7 +110,6 @@ div.textregistre, div.campsregistre {
 div.textregistre {
     width: 10em;
     height: 15em;
-    border: 2px solid black;
     margin-top:1em;
     margin-right: 1em; /* Per donar espai entre el text  i  els camps*/
 }
@@ -116,7 +118,6 @@ div.campsregistre {
     width: 15em;
     height: 15em;
     margin-top:1em;
-    border: 2px solid black;
 }
 
 h2#Registre {
@@ -129,18 +130,30 @@ h2#Inici\ Sessió {
 
 div.fons {
     background-color:white;
-    height:300px;
+    height:270px;
     width:500px;
     text-align: center;
-    margin-left: 50px;
+    margin-left: 35px;
+    border-radius:10px;
+}
+div.fons-inici {
+    background-color:white;
+    height:150px;
+    width:500px;
+    text-align: center;
+    margin-left: 35px;
+    border-radius:10px;
+    margin-top:1em
 }
 .campsregistre input{
     margin-bottom: 1em;
     width: 10em;
+    border-radius:10px;
 }
 .campsinici input {
     margin-bottom:0.5em;
     width: 10em;
+    border-radius:10px;
 }
 div.textinici, div.campsinici {
     display: inline-block;
@@ -150,7 +163,6 @@ div.textinici, div.campsinici {
 div.textinici{
     width: 10em;
     height: 15em;
-    border: 2px solid black;
     margin-top:1em;
     margin-right: 1em; /* Per donar espai entre el text  i  els camps*/
 }
@@ -158,7 +170,7 @@ div.campsinici {
     width: 15em;
     height: 15em;
     margin-top:1em;
-    border: 2px solid black;
+
 
 }
 
