@@ -85,5 +85,82 @@ footer {
     bottom: 0;
 }
 
+/*Estils per al form */
+form {
+    background: #5698ea;
+    width: 45%;
+    float: left;
+    margin-right: 5%;
+    height: 25em;
+
+}
+
+form#IniciarSessió {
+    background-color: #5698ea;
+}
+
+div.textregistre, div.campsregistre {
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.textregistre {
+    width: 10em;
+    height: 15em;
+    border: 2px solid black;
+    margin-top:1em;
+    margin-right: 1em; /* Per donar espai entre el text  i  els camps*/
+}
+
+div.campsregistre {
+    width: 15em;
+    height: 15em;
+    margin-top:1em;
+    border: 2px solid black;
+}
+
+h2#Registre {
+    text-align: center;
+}
+
+h2#Inici\ Sessió {
+    text-align: center;
+}
+
+div.fons {
+    background-color:white;
+    height:300px;
+    width:500px;
+    text-align: center;
+    margin-left: 50px;
+}
+.campsregistre input{
+    margin-bottom: 1em;
+    width: 10em;
+}
+.campsinici input {
+    margin-bottom:0.5em;
+    width: 10em;
+}
+div.textinici, div.campsinici {
+    display: inline-block;
+    vertical-align: top;
+
+}
+div.textinici{
+    width: 10em;
+    height: 15em;
+    border: 2px solid black;
+    margin-top:1em;
+    margin-right: 1em; /* Per donar espai entre el text  i  els camps*/
+}
+div.campsinici {
+    width: 15em;
+    height: 15em;
+    margin-top:1em;
+    border: 2px solid black;
+
+}
+
 
 
