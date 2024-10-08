@@ -94,7 +94,7 @@ form {
     width: 45%;
     float: right;
     margin-right: 5%;
-    height: 22em;
+    height: 25em;
     border-radius:10px;
     margin-bottom:1em;
     color: black;
@@ -112,15 +112,15 @@ div.textregistre, div.campsregistre {
 }
 
 div.textregistre {
-    width: 10em;
-    height: 15em;
-    margin-top:1em;
-    margin-right: 1em; /* Per donar espai entre el text  i  els camps*/
+    width: 20%;
+    height: 15%;
+    margin-top:3%;
+    margin-right: 5%; /* Per donar espai entre el text  i  els camps*/
 }
 
 div.campsregistre {
-    width: 15em;
-    height: 15em;
+    width: 50%;
+    height: 15%;
     margin-top:1em;
 }
 
@@ -134,29 +134,29 @@ h2#Inici\ Sessió {
 
 div.fons {
     background-color:white;
-    height:270px;
-    width:500px;
+    height:80%;
+    width:80%;
     text-align: center;
-    margin-left: 35px;
+    margin-left: 10%;
     border-radius:10px;
 }
 div.fons-inici {
     background-color:white;
-    height:150px;
-    width:500px;
+    height:60%;
+    width:90%;
     text-align: center;
-    margin-left: 35px;
+    margin-left: 5%;
     border-radius:10px;
-    margin-top:1em
+    margin-top:1%;
 }
 .campsregistre input{
-    margin-bottom: 1em;
-    width: 10em;
+    margin-bottom: 7%;
+    width: 70%;
     border-radius:10px;
 }
 .campsinici input {
-    margin-bottom:0.5em;
-    width: 10em;
+    margin-bottom:10%;
+    width: 100%;
     border-radius:10px;
 }
 div.textinici, div.campsinici {
@@ -165,18 +165,58 @@ div.textinici, div.campsinici {
 
 }
 div.textinici{
-    width: 10em;
-    height: 15em;
-    margin-top:1em;
-    margin-right: 1em; /* Per donar espai entre el text  i  els camps*/
+    width: 20%;
+    height: 15%;
+    margin-top:3%;
+    margin-right: 5%; /* Per donar espai entre el text  i  els camps*/
 }
 div.campsinici {
-    width: 15em;
-    height: 15em;
-    margin-top:1em;
-
-
+    width: 15%;
+    height: 15%;
+    margin-top:3%;
 }
 
+/*Estils per al contingut pàgina principal*/
+
+
+/*Estilos del catalogo*/
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.producto {
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 15px;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+.producto:hover {
+    transform: scale(1.05);
+}
+.producto img {
+    width: 100%;
+    border-radius: 20px;
+}
+.producto h2 {
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+.producto p {
+    color: #ddd;
+    margin: 10px 0;
+}
+.precio {
+    font-size: 18px;
+    color: #FF4500;
+    font-weight: bold;
+}
 
 
