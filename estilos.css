@@ -98,6 +98,11 @@ form {
     border-radius:10px;
     margin-bottom:1em;
     color: black;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+form:hover {
+    transform: scale(1.02); /* Lleuger zoom al passar el cursor */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Ombra suau al passar el cursor */
 }
 
 form#IniciarSessió {
@@ -127,6 +132,7 @@ div.campsregistre {
     width: 50%;
     height: 90%;
     margin-top:3%;
+
 }
 
 h2#Registre {
@@ -161,6 +167,7 @@ div.fons-inici {
     margin-bottom: 10%;
     width: 70%;
     border-radius:10px;
+    height: 10%;
 
 }
 .campsinici input {
@@ -182,8 +189,41 @@ div.textinici{
 div.campsinici {
     width: 40%;
     height: 15%;
-    margin-top:3.5%;
+    margin-top:2%;
 }
+
+.campsregistre input.btn-primary {height:15%;margin-right: 30%;}
+
+/* Efectes visuals simplificats per als camps i botons del formulari */
+
+/* Efecte per a inputs al passar el cursor i fer focus */
+.campsinici input, .campsregistre input {
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.campsinici input:hover, .campsregistre input:hover,
+.campsinici input:focus, .campsregistre input:focus {
+    background-color: #e6f7ff; /* Canvia el color de fons al hover i focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Ombra suau blava */
+    outline: none; /* Elimina el contorn per defecte */
+}
+
+/* Efectes per al botó submit */
+.campsinici input.btn-primary, .campsregistre input.btn-primary {
+    background-color: #007bff; /* Color inicial */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.campsinici input.enviar:hover, .campsregistre input.enviar:hover {
+    background-color: #0056b3; /* Canvia el color al passar el cursor */
+}
+
+
 
 /*Estils per al contingut pàgina principal*/
 
