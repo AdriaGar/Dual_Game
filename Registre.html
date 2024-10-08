@@ -12,9 +12,10 @@
 <body>
 <!--En este iframe esta la cabezera-->
 <iframe src="header.html" title="Header"></iframe>
-<h2>Registre</h2>
-<form action="#" method="POST">
-    <div>
+<form action="#" method="POST" id="Registrat">
+    <h2 id="Registre">Registre</h2>
+    <div class="fons">
+    <div class="textregistre">
         <p>Usuari</p>
         <p>Contrasenya</p>
         <p>Re-introdueix contrasenya</p>
@@ -22,23 +23,26 @@
         <p>Telefon<p>
 
     </div>
-    <div>
+    <div class="campsregistre">
         <input type="text" name= "Usuari">
         <input type="password" name="Contrasenya">
         <input type="password" name="Re-Contrasenya">
         <input type="email" name="Email">
         <input type="tel" name="Telefon">
     </div>
+    </div>
 </form>
-<h2>Inici sessió</h2>
-<form action="#" method="POST">
-    <div>
+<form action="#" method="POST" id="IniciarSessió">
+    <h2 id="Inici Sessió">Inici sessió</h2>
+    <div class="fons">
+    <div class="textinici">
         <p>Usuari</p>
         <p>Contrasenya</p>
     </div>
-    <div>
+    <div class="campsinici">
         <input type="text" name= "Usuari">
         <input type="password" name="Contrasenya">
+    </div>
     </div>
 </form>
 
