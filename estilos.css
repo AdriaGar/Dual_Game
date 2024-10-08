@@ -114,7 +114,7 @@ div.textregistre, div.campsregistre {
 div.textregistre {
     width: 20%;
     height: 15%;
-    margin-top:3%;
+    margin-top:4%;
     margin-right: 5%; /* Per donar espai entre el text  i  els camps*/
 }
 
@@ -142,7 +142,7 @@ div.fons {
 }
 div.fons-inici {
     background-color:white;
-    height:60%;
+    height:70%;
     width:90%;
     text-align: center;
     margin-left: 5%;
@@ -150,7 +150,7 @@ div.fons-inici {
     margin-top:1%;
 }
 .campsregistre input{
-    margin-bottom: 7%;
+    margin-bottom: 10%;
     width: 70%;
     border-radius:10px;
 }
@@ -167,11 +167,11 @@ div.textinici, div.campsinici {
 div.textinici{
     width: 20%;
     height: 15%;
-    margin-top:3%;
+    margin-top:4%;
     margin-right: 5%; /* Per donar espai entre el text  i  els camps*/
 }
 div.campsinici {
-    width: 15%;
+    width: 40%;
     height: 15%;
     margin-top:3%;
 }
