@@ -1,20 +1,174 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="ca">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cataleg</title>
-    <!--Añadimos la oja de estilos-->
-    <link rel="stylesheet" href="estilos.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="icon" href="Material/Favicon.jfif" type="image/jifi"> <!--Este es el favicon-->
-
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #2c3e50;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #2c3e50;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            background-color: #2c3e50; /* Color de fondo oscuro para el encabezado */
+            color: white; /* Texto en blanco */
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            border-bottom: 4px solid #e74c3c; /* Borde inferior de color rojo */
+        }
+        .catalogo {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .producto {
+            background-color: black;
+            border: 2px solid black;
+            border-radius: 10px;
+            margin: 15px;
+            width: 300px;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+        }
+        .producto:hover {
+            transform: scale(1.05);
+        }
+        .producto img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .producto h2 {
+            color: white;
+            font-size: 20px;
+        }
+        .producto p {
+            color: #ddd;
+            margin: 10px 0;
+        }
+        .precio {
+            font-size: 18px;
+            color: #FF4500;
+            font-weight: bold;
+        }
+        footer {
+            background-color: #2c3e50; /* Mismo color que el header */
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 14px;
+            border-top: 4px solid #e74c3c; /* Borde superior rojo para continuidad */
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
 <body>
-<!--En este iframe esta la cabezera-->
-<iframe src="header.html" title="Header"></iframe>
 
+<header>
+    <h1>Catálogo de Productos Gaming</h1>
+</header>
 
-<!--En este iframe va el pie de pagina-->
-<iframe src="footer.html" title="Header" ></iframe>
+<section class="catalogo">
+    <div class="producto">
+        <img src="img/teclat.jpg" height="206" width="245" alt="Teclado Mecánico RGB">
+        <h2>Teclado Mecánico RGB</h2>
+        <p>Teclado gaming con retroiluminación RGB y switches mecánicos de alta durabilidad.</p>
+        <p class="precio">$80</p>
+    </div>
+
+    <div class="producto">
+        <img src="img/mouse.jpg" height="206" width="245" alt="Mouse Gaming 16000 DPI">
+        <h2>Mouse Gaming 16000 DPI</h2>
+        <p>Mouse ergonómico con sensor de alta precisión y hasta 16000 DPI, ideal para eSports.</p>
+        <p class="precio">$60</p>
+    </div>
+
+    <div class="producto">
+        <img src="img/auriculars.jpg" alt="Auriculares 7.1 Surround">
+        <h2>Auriculares 7.1 Surround</h2>
+        <p>Auriculares con sonido envolvente 7.1, micrófono retráctil y control de volumen integrado.</p>
+        <p class="precio">$100</p>
+    </div>
+
+    <div class="producto">
+        <img src="img/monitor.jpg" alt="Monitor 144Hz 24''">
+        <h2>Monitor 144Hz 24''</h2>
+        <p>Monitor Full HD de 24 pulgadas con tasa de refresco de 144Hz para una experiencia de juego fluida.</p>
+        <p class="precio">$250</p>
+    </div>
+
+    <div class="producto">
+        <img src="img/silla.jpg" alt="Silla Gaming Ergonómica">
+        <h2>Silla Gaming Ergonómica</h2>
+        <p>Silla gaming con soporte lumbar ajustable y reposabrazos 4D para largas sesiones de juego.</p>
+        <p class="precio">$200</p>
+    </div>
+
+    <div class="producto">
+        <img src="img/mando.jpg" alt="Controlador Xbox Elite">
+        <h2>Controlador Xbox Elite</h2>
+        <p>Mando de alto rendimiento con botones personalizables y agarres de goma para una mejor precisión.</p>
+        <p class="precio">$180</p>
+    </div>
+
+    <div class="producto">
+        <img src="img/grafica.jpg" alt="Tarjeta Gráfica RTX 3080">
+        <h2>Tarjeta Gráfica RTX 3080</h2>
+        <p>Tarjeta gráfica de última generación con 10 GB de memoria GDDR6X, ideal para juegos AAA a 4K.</p>
+        <p class="precio">$800</p>
+    </div>
+
+    <div class="producto">
+        <img src="img/ssd.jpg" alt="Disco SSD 1TB">
+        <h2>Disco SSD 1TB</h2>
+        <p>Unidad de almacenamiento SSD de 1TB con velocidades ultrarrápidas para reducir los tiempos de carga.</p>
+        <p class="precio">$120</p>
+    </div>
+
+    <div class="producto">
+        <img src="img/micro.jpg" alt="Micrófono Condensador">
+        <h2>Micrófono Condensador</h2>
+        <p>Micrófono de condensador profesional para streaming y grabaciones de alta calidad.</p>
+        <p class="precio">$90</p>
+    </div>
+
+    <div class="producto">
+        <img src="img/webcam.jpg" alt="Webcam Full HD">
+        <h2>Webcam Full HD</h2>
+        <p>Webcam de alta definición 1080p para videollamadas y streaming con claridad de imagen excelente.</p>
+        <p class="precio">$70</p>
+    </div>
+
+    <div class="producto">
+        <img src="img/alfombrilla.jpg" alt="Alfombrilla Gaming XL">
+        <h2>Alfombrilla Gaming XL</h2>
+        <p>Alfombrilla extra grande con superficie suave y base antideslizante para mayor precisión.</p>
+        <p class="precio">$30</p>
+    </div>
+
+    <div class="producto">
+        <img src="img/fuente.png" alt="Fuente de Alimentación 750W">
+        <h2>Fuente de Alimentación 750W</h2>
+        <p>Fuente de alimentación modular de 750W, eficiente y silenciosa, ideal para sistemas gaming.</p>
+        <p class="precio">$130</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2024 Catálogo Gaming | Todos los derechos reservados</p>
+</footer>
+
 </body>
 </html>
