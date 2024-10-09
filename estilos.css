@@ -6,6 +6,10 @@
     font-family: 'Arial', sans-serif;
 }
 
+div {
+    padding-left: 1em;
+}
+
 .contenido {
     background-color: #4f77a1;
     color: #ffffff;
@@ -88,17 +92,23 @@ footer {
     bottom: 0;
 }
 
-/*Estils per al form */
-form {
+/*Estils per al form de la pagina Registro */
+form{
     background: #5698ea;
-    width: 45%;
-    float: right;
     margin-right: 5%;
-    height: 25em;
     border-radius:10px;
     margin-bottom:1em;
     color: black;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 10px;
+}
+
+#Registrat, #IniciarSessió{
+    width: 45%;
+    float: left;
+}
+#Contacto {
+    width: 50%;
 }
 form:hover {
     transform: scale(1.02); /* Lleuger zoom al passar el cursor */
@@ -192,9 +202,6 @@ div.campsinici {
     margin-top:2%;
 }
 
-.campsregistre input.btn-primary {height:15%;margin-right: 30%;}
-
-/* Efectes visuals simplificats per als camps i botons del formulari */
 
 /* Efecte per a inputs al passar el cursor i fer focus */
 .campsinici input, .campsregistre input {
@@ -207,25 +214,6 @@ div.campsinici {
     box-shadow: 0px 0px 5px #007BFF7F; /* Ombra suau blava */
     outline: none; /* Elimina el contorn per defecte */
 }
-
-/* Efectes per al botó submit */
-.campsinici input.btn-primary, .campsregistre input.btn-primary {
-    background-color: #007bff; /* Color inicial */
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-    cursor: pointer;
-    transition: background-color 0.2s ease;
-}
-
-.campsinici input.enviar:hover, .campsregistre input.enviar:hover {
-    background-color: #0056b3; /* Canvia el color al passar el cursor */
-}
-
-
-
-/*Estils per al contingut pàgina principal*/
 
 
 /*Estilos del catalogo*/
