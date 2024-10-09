@@ -92,7 +92,7 @@ footer {
     bottom: 0;
 }
 
-/*Estils per al form de la pagina Registro */
+/*Estils per al form */
 form{
     background: #5698ea;
     margin-right: 5%;
@@ -108,7 +108,15 @@ form{
     float: left;
 }
 #Contacto {
-    width: 50%;
+    background: #5698ea;
+    margin: 0 auto; /* Establece márgenes automáticos a la izquierda y derecha */
+    border-radius: 10px;
+    margin-bottom: 1em;
+    color: black;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px; /* Aumenta el padding para que se vea más espacioso */
+    width: 70%; /* Ajusta el ancho como desees */
+    max-width: 600px; /* Establece un ancho máximo para el formulario */
 }
 form:hover {
     transform: scale(1.02); /* Lleuger zoom al passar el cursor */

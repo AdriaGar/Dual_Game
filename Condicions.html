@@ -2,49 +2,78 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Condicions</title>
-  <!--Añadimos la oja de estilos-->
+  <title>Condiciones de Compra y Garantía</title>
+  <!--Añadimos la hoja de estilos-->
   <link rel="stylesheet" href="estilos.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="icon" href="Material/Favicon.jfif" type="image/jifi"> <!--Este es el favicon-->
-
+  <link rel="icon" href="Material/Favicon.jfif" type="image/jfif"> <!--Este es el favicon-->
 </head>
-<body class>
-<!--En este iframe esta la cabezera-->
+<body>
+<!--En este iframe está la cabecera-->
 <iframe id="header" src="header.html" title="Header"></iframe>
 
-<div class="contenido">
-  <h1>Condicions compra i garantia</h1>
-  <p>Benvolgut client, agraïm la seva confiança en la nostra botiga de videojocs.
-    A continuació, li informem sobre les nostres
-    condicions de compra i la garantia dels nostres productes per assegurar la seva satisfacció.</p>
-  <ol>
-    <li>Condicions de compra</li>
-    <ul>
-      <li>Tots els productes adquirits a la
-        nostra tenda estan subjectes a disponibilitat en el moment de la compra.</li>
-      <li>Ens reservem el dret de rebutjar qualsevol comanda per motius d'error en la informació
-        proporcionada o per problemes d'inventari.</li>
-    </ul>
-    <li>Garantia dels productes</li>
-    <ul>
-      <li>Tots els nostres productes compten amb una garantia de [X] mesos des de la data de compra.</li>
-      <li>La garantia cobreix defectes de fabricació i funcionament,
-        però no inclou danys causats per ús indegut o accidents.</li>
-    </ul>
-    <li>Política de Devolucions</li>
-    <ul>
-      <li>Si no està satisfet amb la seva compra, disposa d'un termini de [Y] dies per retornar el producte.</li>
-      <li>Els productes han de ser retornats en el seu estat original i amb l'embalatge intacte.</li>
-      <li>Un cop rebem i verifiquem l'estat del producte, procedirem a realitzar el reemborsament corresponent.</li>
-    </ul>
-  </ol>
-  <p>Per a qualsevol dubte o consulta, no dubti en posar-se en contacte amb el nostre servei d'atenció
-    al client.
-    Estem aquí per ajudar-lo i assegurar que la seva experiència de compra sigui òptima.</p>
+<div class="container my-5">
+  <h1 class="text-center mb-4">Condiciones de Compra y Garantía</h1>
+  <p>Estimado cliente, agradecemos su confianza en nuestra tienda de videojuegos. A continuación, le informamos sobre nuestras condiciones de compra y la garantía de nuestros productos para asegurar su satisfacción.</p>
+
+  <div class="accordion" id="accordionConditions">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingPurchase">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePurchase" aria-expanded="true" aria-controls="collapsePurchase">
+          Condiciones de Compra
+        </button>
+      </h2>
+      <div id="collapsePurchase" class="accordion-collapse collapse show" aria-labelledby="headingPurchase" data-bs-parent="#accordionConditions">
+        <div class="accordion-body">
+          <ul>
+            <li>Todos los productos adquiridos en nuestra tienda están sujetos a disponibilidad en el momento de la compra.</li>
+            <li>Nos reservamos el derecho de rechazar cualquier pedido por errores en la información proporcionada o por problemas de inventario.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingWarranty">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWarranty" aria-expanded="false" aria-controls="collapseWarranty">
+          Garantía de los Productos
+        </button>
+      </h2>
+      <div id="collapseWarranty" class="accordion-collapse collapse" aria-labelledby="headingWarranty" data-bs-parent="#accordionConditions">
+        <div class="accordion-body">
+          <ul>
+            <li>Todos nuestros productos cuentan con una garantía de [X] meses desde la fecha de compra.</li>
+            <li>La garantía cubre defectos de fabricación y funcionamiento, pero no incluye daños causados por uso indebido o accidentes.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingReturns">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseReturns" aria-expanded="false" aria-controls="collapseReturns">
+          Política de Devoluciones
+        </button>
+      </h2>
+      <div id="collapseReturns" class="accordion-collapse collapse" aria-labelledby="headingReturns" data-bs-parent="#accordionConditions">
+        <div class="accordion-body">
+          <ul>
+            <li>Si no está satisfecho con su compra, dispone de un plazo de [Y] días para devolver el producto.</li>
+            <li>Los productos deben ser devueltos en su estado original y con el embalaje intacto.</li>
+            <li>Una vez recibamos y verifiquemos el estado del producto, procederemos a realizar el reembolso correspondiente.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <p class="mt-4">Para cualquier duda o consulta, no dude en ponerse en contacto con nuestro servicio de atención al cliente. Estamos aquí para ayudarle y asegurar que su experiencia de compra sea óptima.</p>
 </div>
 
-<!--En este iframe va el pie de pagina-->
-<iframe id="footer" src="footer.html" title="Header" ></iframe>
+<!--En este iframe va el pie de página-->
+<iframe id="footer" src="footer.html" title="Footer"></iframe>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
