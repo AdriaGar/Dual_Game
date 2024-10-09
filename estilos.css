@@ -102,7 +102,7 @@ form {
 }
 form:hover {
     transform: scale(1.02); /* Lleuger zoom al passar el cursor */
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Ombra suau al passar el cursor */
+    box-shadow: 0px 0px 15px #00000033; /* Ombra suau al passar el cursor */
 }
 
 form#IniciarSessió {
@@ -204,7 +204,7 @@ div.campsinici {
 .campsinici input:hover, .campsregistre input:hover,
 .campsinici input:focus, .campsregistre input:focus {
     background-color: #e6f7ff; /* Canvia el color de fons al hover i focus */
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Ombra suau blava */
+    box-shadow: 0px 0px 5px #007BFF7F; /* Ombra suau blava */
     outline: none; /* Elimina el contorn per defecte */
 }
 
