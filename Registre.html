@@ -12,41 +12,50 @@
 <!--En este iframe esta la cabezera-->
 <iframe id="header" src="header.html" title="Header"></iframe>
 
-<form action="#" method="POST" id="IniciarSessió">
-    <h2 id="Inici-Sessió">Inici sessió</h2>
-    <div class="fons-inici">
-        <div class="textinici">
-            <p>Usuari</p>
-            <p>Contrasenya</p>
+<!-- Formulario de Iniciar Sesión -->
+<div class="container my-5">
+    <form action="#" method="POST" id="IniciarSessió" class="bg-light p-4 rounded shadow-sm">
+        <h2 id="Inici-Sessió" class="text-center mb-4">Iniciar sesión</h2>
+        <div class="mb-3">
+            <label for="usuari" class="form-label">Usuario</label>
+            <input type="text" class="form-control" id="usuari" name="Usuari" required>
         </div>
-        <div class="campsinici">
-            <input type="text" name= "Usuari" class="form-control">
-            <input type="password" name="Contrasenya" class="form-control">
-            <input type="submit" name="Enviar" class="btn btn-primary">
+        <div class="mb-3">
+            <label for="contrasenya" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" id="contrasenya" name="Contrasenya" required>
         </div>
-    </div>
-</form>
+        <button type="submit" class="btn btn-primary btn-lg w-100">Iniciar Sesión</button>
+    </form>
+</div>
 
-<form action="#" method="POST" id="Registrat">
-    <h2 id="Registre">Registre</h2>
-    <div class="fons">
-        <div class="textregistre">
-            <p>Usuari</p>
-            <p>Contrasenya</p>
-            <p>Re-introdueix contrasenya</p>
-            <p>Email</p>
-            <p>Telefon</p>
+<!-- Formulario de Registro -->
+<div class="container my-5">
+    <form action="#" method="POST" id="Registrat" class="bg-light p-4 rounded shadow-sm">
+        <h2 id="Registre" class="text-center mb-4">Registro</h2>
+        <div class="mb-3">
+            <label for="usuariReg" class="form-label">Usuario</label>
+            <input type="text" class="form-control" id="usuariReg" name="Usuari" required>
         </div>
-        <div class="campsregistre">
-            <input type="text" name= "Usuari" class="form-control">
-            <input type="password" name="Contrasenya" class="form-control">
-            <input type="password" name="Re-Contrasenya" class="form-control">
-            <input type="email" name="Email" class="form-control">
-            <input type="tel" name="Telefon" class="form-control">
-            <input type="submit" name="Enviar" class="btn btn-primary">
+        <div class="mb-3">
+            <label for="contrasenyaReg" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" id="contrasenyaReg" name="Contrasenya" required>
         </div>
-    </div>
-</form>
+        <div class="mb-3">
+            <label for="reContrasenyaReg" class="form-label">Repetir Contraseña</label>
+            <input type="password" class="form-control" id="reContrasenyaReg" name="Re-Contrasenya" required>
+        </div>
+        <div class="mb-3">
+            <label for="emailReg" class="form-label">Correo Electrónico</label>
+            <input type="email" class="form-control" id="emailReg" name="Email" required>
+        </div>
+        <div class="mb-3">
+            <label for="telefonoReg" class="form-label">Teléfono</label>
+            <input type="tel" class="form-control" id="telefonoReg" name="Telefon" required>
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg w-100">Registrar</button>
+    </form>
+</div>
+
 
 <!--En este iframe va el pie de pagina-->
 <iframe id="footer" src="footer.html" title="Header"></iframe>

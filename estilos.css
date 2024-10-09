@@ -106,6 +106,7 @@ form{
 #Registrat, #IniciarSessió{
     width: 45%;
     float: left;
+    min-height: 330px; /* Altura mínima para evitar recortes */
 }
 #Contacto {
     background: #5698ea;
@@ -114,13 +115,12 @@ form{
     margin-bottom: 1em;
     color: black;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    padding: 20px; /* Aumenta el padding para que se vea más espacioso */
-    width: 70%; /* Ajusta el ancho como desees */
-    max-width: 600px; /* Establece un ancho máximo para el formulario */
+    padding: 20px;
+    width: 70%;
+    max-width: 600px;
 }
 form:hover {
-    transform: scale(1.02); /* Lleuger zoom al passar el cursor */
-    box-shadow: 0px 0px 15px #00000033; /* Ombra suau al passar el cursor */
+    transform: scale(1.02);
 }
 
 form#IniciarSessió {
