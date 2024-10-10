@@ -239,6 +239,77 @@ div.producte3 {height: 100%;width: 15%;border:2px solid black;display: inline-bl
 div.producte4 {height: 100%;width: 15%;border:2px solid black;display: inline-block;margin-right:1%}
 div.producte5 {height: 100%;width: 15%;border:2px solid black;display: inline-block;margin-right:1%}
 div.producte6 {height: 100%;width: 15%;border:2px solid black;display: inline-block;margin-right:1%}
+
+/* Estils per al contenidor de productes */
+.container {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animació suau */
+}
+
+/* Efecte al passar el cursor */
+.productes-container {
+    background-color:#80d2ff;
+    border-radius:50px;
+    box-shadow: 0px 4px 20px #00000019;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animació suau */
+}
+
+/* Efecte al passar el cursor */
+.productes-container:hover {
+    transform: scale(1.02); /* Lleugera ampliació */
+    box-shadow: 0px 4px 15px #00000033; /* Ombra */
+}
+
+
+/* Estils per a cada producte */
+.col-md-2 {
+    transition: transform 0.3s, box-shadow 0.3s; /* Animació per a efectes */
+    border: 1px solid #ddd; /* Borde al voltant de cada producte */
+    border-radius: 8px; /* Arrodoniment de cantonades */
+    overflow: hidden; /* Evitar que continguts sobresurtin */
+    background-color: #fff; /* Color de fons blanc */
+    margin: 10px; /* Margen entre productes */
+}
+
+/* Efecte al passar el ratolí */
+.col-md-2:hover {
+    transform: translateY(-5px); /* Lleuger elevació */
+    box-shadow: 0px 8px 30px #00000033; /* Ombra més gran al passar el ratolí */
+}
+
+/* Estils per a títols i imatges */
+h5 {
+    color: #333; /* Color del text dels títols */
+    font-size: 18px; /* Mida de la font per als títols */
+    margin-top: 10px; /* Margen superior */
+}
+
+.img-fluid {
+    max-width: 100%; /* Ample màxim de les imatges */
+    height: auto; /* Altura automàtica per mantenir la proporció */
+}
+
+/* Estils per a preus i quantitats */
+p {
+    color: #666; /* Color del text per a preus i quantitats */
+    margin: 5px 0; /* Margen entre paràgrafs */
+}
+
+/* Estils per al camp de quantitat */
+input.quantity-input {
+    border: 1px solid #ccc; /* Borde del camp */
+    border-radius: 4px; /* Arrodoniment de cantonades */
+    padding: 5px; /* Espai interior del camp */
+    width: 50px; /* Amplada del camp */
+    text-align: center; /* Centrar el text */
+}
+
+/* Estils per a l'encapçalament de la cistella */
+h3 {
+    color: #007bff; /* Color del text de l'encapçalament */
+    margin-bottom: 30px; /* Margen inferior per espaiar amb els productes */
+}
+
 /*Estilos del catalogo*/
 .catalogo {
     display: flex;
@@ -254,7 +325,7 @@ div.producte6 {height: 100%;width: 15%;border:2px solid black;display: inline-bl
     width: 300px;
     text-align: center;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    box-shadow: 0px 4px 8px #00000033;
     transition: transform 0.3s ease;
 }
 .producto:hover {
