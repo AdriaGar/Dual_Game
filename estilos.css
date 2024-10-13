@@ -212,6 +212,13 @@ div.campsinici {
     height: 15%;
     margin-top:2%;
 }
+@media (max-width: 768px) {
+    #IniciarSessió, #Registrat {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
 
 
 /* Efecte per a inputs al passar el cursor i fer focus */
