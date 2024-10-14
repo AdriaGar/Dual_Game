@@ -78,12 +78,15 @@ iframe {
     margin: 0;
 }
 #header {height: 215px; position: static;}
+#footer{height: 130px;} /*Este es un estilo de iframe*/
 @media (max-width: 768px) {
     #header {
         height: 280px;
     }
+    #footer {
+        height: 180px;
+    }
 }
-#footer{height: 130px;} /*Este es un estilo de iframe*/
 
 /* Estilos para el footer */
 footer {
