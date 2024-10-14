@@ -102,7 +102,6 @@ footer {
 
 /*Estils per al form */
 form{
-
     margin-right: 5%;
     border-radius:10px;
     margin-bottom:1em;
@@ -117,7 +116,6 @@ form{
     min-height: 330px; /* Altura mínima para evitar recortes */
 }
 #Contacto {
-    background: #5698ea;
     margin: 0 auto; /* Establece márgenes automáticos a la izquierda y derecha */
     border-radius: 10px;
     margin-bottom: 1em;
@@ -138,13 +136,6 @@ form:hover {
         margin-bottom: 20px;
     }
 }
-
-
-/* Efecte per a inputs al passar el cursor i fer focus */
-.campsinici input, .campsregistre input {
-    transition: background-color 0.2s ease, box-shadow 0.2s ease;
-}
-
 
 
 /* Estils per al contenidor de productes */
