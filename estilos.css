@@ -99,13 +99,13 @@ footer {
 
 /*Estils per al form */
 form{
-    background: #5698ea;
+
     margin-right: 5%;
     border-radius:10px;
     margin-bottom:1em;
     color: black;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    padding: 10px;
+
 }
 
 #Registrat, #IniciarSessió{
