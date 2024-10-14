@@ -128,95 +128,7 @@ form:hover {
     transform: scale(1.02);
 }
 
-form#IniciarSessió {
-    background-color: #5698ea;
-    height: 15em;
 
-}
-
-div.textregistre, div.campsregistre {
-    display: inline-block;
-    vertical-align: top;
-}
-
-div.textregistre {
-    width: 35%;
-    height: 90%;
-    margin-top:3%;
-    margin-right: 5%; /* Per donar espai entre el text  i  els camps*/
-
-}
-.textregistre p {
-
-    margin-bottom:13%;
-}
-
-div.campsregistre {
-    width: 50%;
-    height: 90%;
-    margin-top:3%;
-
-}
-
-h2#Registre {
-    text-align: center;
-}
-h2#Inici-Sessió {
-    text-align: center;
-}
-
-h2#Inici\ Sessió {
-    text-align: center;
-}
-
-div.fons {
-    background-color:white;
-    height:80%;
-    width:80%;
-    text-align: center;
-    margin-left: 10%;
-    border-radius:10px;
-}
-div.fons-inici {
-    background-color:white;
-    height:70%;
-    width:90%;
-    text-align: center;
-    margin-left: 5%;
-    border-radius:10px;
-    margin-top:1%;
-}
-.campsregistre input{
-    margin-bottom: 10%;
-    width: 70%;
-    border-radius:10px;
-    height: 10%;
-
-}
-.campsinici input {
-    margin-bottom:5%;
-    width: 100%;
-    border-radius:10px;
-}
-.campsregistre  input.btn-primary {
-   margin-right: 50%;
-}
-div.textinici, div.campsinici {
-    display: inline-block;
-    vertical-align: top;
-
-}
-div.textinici{
-    width: 20%;
-    height: 15%;
-    margin-top:4%;
-    margin-right: 5%; /* Per donar espai entre el text  i  els camps*/
-}
-div.campsinici {
-    width: 40%;
-    height: 15%;
-    margin-top:2%;
-}
 @media (max-width: 900px) {
     #IniciarSessió, #Registrat {
         width: 100%;
@@ -271,6 +183,14 @@ div.campsinici {
 
 /* Efecte al passar el ratolí */
 .col-md-2:hover {
+    transform: translateY(-5px); /* Lleuger elevació */
+    box-shadow: 0px 8px 30px #00000033; /* Ombra més gran al passar el ratolí */
+}
+.preu {
+    background-color:white;
+    border-radius: 10px;
+}
+.preu:hover {
     transform: translateY(-5px); /* Lleuger elevació */
     box-shadow: 0px 8px 30px #00000033; /* Ombra més gran al passar el ratolí */
 }
@@ -347,6 +267,7 @@ h3 {
     color: #FF4500;
     font-weight: bold;
 }
+.productes-dis {text-align: center}
 
 /* Estils per a la pàgina de la cistella*/
 
