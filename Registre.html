@@ -1,63 +1,62 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="ca">
 <head>
     <meta charset="UTF-8">
     <title>Registre</title>
-    <!--Añadimos la oja de estilos-->
+    <!--Afegim la fulla d'estils-->
     <link rel="stylesheet" href="estilos.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="icon" href="Material/Favicon.jfif" type="image/jifi"> <!--Este es el favicon-->
+    <link rel="icon" href="Material/Favicon.jfif" type="image/jfif"> <!--Aquest és el favicon-->
 </head>
 <body>
-<!--En este iframe esta la cabezera-->
+<!--En aquest iframe hi ha la capçalera-->
 <iframe id="header" src="header.html" title="Header"></iframe>
 
-<!-- Formulario de Iniciar Sesión -->
+<!-- Formulari d'Iniciar Sessió -->
 <div class="container my-5">
     <form action="#" method="POST" id="IniciarSessió" class="bg-light p-4 rounded shadow-sm">
-        <h2 id="Inici-Sessió" class="text-center mb-4">Iniciar sesión</h2>
+        <h2 id="Inici-Sessió" class="text-center mb-4">Iniciar sessió</h2>
         <div class="mb-3">
-            <label for="usuari" class="form-label">Usuario</label>
+            <label for="usuari" class="form-label">Usuari</label>
             <input type="text" class="form-control" id="usuari" name="Usuari" required>
         </div>
         <div class="mb-3">
-            <label for="contrasenya" class="form-label">Contraseña</label>
+            <label for="contrasenya" class="form-label">Contrasenya</label>
             <input type="password" class="form-control" id="contrasenya" name="Contrasenya" required>
         </div>
-        <button type="submit" class="btn btn-primary btn-lg w-100">Iniciar Sesión</button>
+        <button type="submit" class="btn btn-primary btn-lg w-100">Iniciar Sessió</button>
     </form>
 </div>
 
-<!-- Formulario de Registro -->
+<!-- Formulari de Registre -->
 <div class="container my-5">
     <form action="#" method="POST" id="Registrat" class="bg-light p-4 rounded shadow-sm">
-        <h2 id="Registre" class="text-center mb-4">Registro</h2>
+        <h2 id="Registre" class="text-center mb-4">Registre</h2>
         <div class="mb-3">
-            <label for="usuariReg" class="form-label">Usuario</label>
+            <label for="usuariReg" class="form-label">Usuari</label>
             <input type="text" class="form-control" id="usuariReg" name="Usuari" required>
         </div>
         <div class="mb-3">
-            <label for="contrasenyaReg" class="form-label">Contraseña</label>
+            <label for="contrasenyaReg" class="form-label">Contrasenya</label>
             <input type="password" class="form-control" id="contrasenyaReg" name="Contrasenya" required>
         </div>
         <div class="mb-3">
-            <label for="reContrasenyaReg" class="form-label">Repetir Contraseña</label>
+            <label for="reContrasenyaReg" class="form-label">Repetir Contrasenya</label>
             <input type="password" class="form-control" id="reContrasenyaReg" name="Re-Contrasenya" required>
         </div>
         <div class="mb-3">
-            <label for="emailReg" class="form-label">Correo Electrónico</label>
+            <label for="emailReg" class="form-label">Correu Electrònic</label>
             <input type="email" class="form-control" id="emailReg" name="Email" required>
         </div>
         <div class="mb-3">
-            <label for="telefonoReg" class="form-label">Teléfono</label>
-            <input type="number" class="form-control" id="telefonoReg" name="Telefon"  required>
+            <label for="telefonoReg" class="form-label">Telèfon</label>
+            <input type="number" class="form-control" id="telefonoReg" name="Telefon" required>
         </div>
         <button type="submit" class="btn btn-primary btn-lg w-100">Registrar</button>
     </form>
 </div>
 
-
-<!--En este iframe va el pie de pagina-->
-<iframe id="footer" src="footer.html" title="Header"></iframe>
+<!--En aquest iframe hi va el peu de pàgina-->
+<iframe id="footer" src="footer.html" title="Footer"></iframe>
 </body>
 </html>
