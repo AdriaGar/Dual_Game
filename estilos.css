@@ -210,11 +210,7 @@ input.quantity-input {
     text-align: center; /* Centrar el text */
 }
 
-/* Estils per a l'encapçalament de la cistella */
-h3 {
-    color: #007bff; /* Color del text de l'encapçalament */
-    margin-bottom: 30px; /* Margen inferior per espaiar amb els productes */
-}
+
 
 /*Estilos del catalogo*/
 .catalogo {
