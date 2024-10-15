@@ -166,7 +166,8 @@ form:hover {
     border-radius: 16px; /* Arrodoniment de cantonades */
     overflow: hidden; /* Evitar que continguts sobresurtin */
     background-color: #fff; /* Color de fons blanc */
-    margin: 10px; /* Margen entre productes */
+    margin:0.5%;
+
 }
 
 /* Efecte al passar el ratolí */
