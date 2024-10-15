@@ -137,6 +137,7 @@ form:hover {
     }
 }
 
+/* Estils per a la pàgina de la cistella*/
 
 /* Estils per al contenidor de productes */
 .container {
@@ -149,66 +150,66 @@ form:hover {
     border-radius:50px;
     box-shadow: 0px 4px 20px #00000019;
     padding: 20px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animació suau */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 /* Efecte al passar el cursor */
 .productes-container:hover {
-    transform: scale(1.02); /* Lleugera ampliació */
-    box-shadow: 0px 4px 15px #00000033; /* Ombra */
+    transform: scale(1.02);
+    box-shadow: 0px 4px 15px #00000033;
 }
 
 
 /* Estils per a cada producte */
 .col-md-2 {
-    transition: transform 0.3s, box-shadow 0.3s; /* Animació per a efectes */
-    border: 1px solid #ddd; /* Borde al voltant de cada producte */
-    border-radius: 16px; /* Arrodoniment de cantonades */
-    overflow: hidden; /* Evitar que continguts sobresurtin */
-    background-color: #fff; /* Color de fons blanc */
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    overflow: hidden;
+    background-color: #fff;
     margin:0.5%;
 
 }
 
 /* Efecte al passar el ratolí */
 .col-md-2:hover {
-    transform: translateY(-5px); /* Lleuger elevació */
-    box-shadow: 0px 8px 30px #00000033; /* Ombra més gran al passar el ratolí */
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 30px #00000033; /*Ombra*/
 }
 .preu {
     background-color:white;
     border-radius: 10px;
 }
 .preu:hover {
-    transform: translateY(-5px); /* Lleuger elevació */
-    box-shadow: 0px 8px 30px #00000033; /* Ombra més gran al passar el ratolí */
+    transform: translateY(-5px); /* Elevació lleugera */
+    box-shadow: 0px 8px 30px #00000033;
 }
 
 /* Estils per a títols i imatges */
 h5 {
-    color: #333; /* Color del text dels títols */
-    font-size: 18px; /* Mida de la font per als títols */
-    margin-top: 10px; /* Margen superior */
+    color: #333; /* Colors dels titols */
+    font-size: 18px; /* Tamany de la lletra per als títols */
+    margin-top: 10px; /* Marge superior */
 }
 
 .img-fluid {
     max-width: 100%; /* Ample màxim de les imatges */
-    height: auto; /* Altura automàtica per mantenir la proporció */
+    height: auto; /* Altura automàtica*/
 }
 
 /* Estils per a preus i quantitats */
 p {
-    color: #666; /* Color del text per a preus i quantitats */
-    margin: 5px 0; /* Margen entre paràgrafs */
+    color: #666;
+    margin: 5px 0; /* Marge entre paràgrafs */
 }
 
 /* Estils per al camp de quantitat */
 input.quantity-input {
-    border: 1px solid #ccc; /* Borde del camp */
-    border-radius: 4px; /* Arrodoniment de cantonades */
-    padding: 5px; /* Espai interior del camp */
-    width: 50px; /* Amplada del camp */
-    text-align: center; /* Centrar el text */
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Arrodonir  el border */
+    padding: 5px;
+    width: 50px;
+    text-align: center;
 }
 
 
@@ -254,5 +255,5 @@ input.quantity-input {
 }
 .productes-dis {text-align: center}
 
-/* Estils per a la pàgina de la cistella*/
+
 
