@@ -22,7 +22,7 @@ Este proyecto se centra en el uso de estándares web nativos para garantizar un 
 
 ## Estructura del Proyecto
 El repositorio está organizado de la siguiente manera:
-* `paginaPrincipal.html`: Estructura principal de la web.
+* `index.html`: Estructura principal de la web.
 * `/Material`: Guarda el favicon y otros elementos tecnicos
 * `/img`: Carpeta de recursos gráficos y multimedia.
 
@@ -36,7 +36,12 @@ Para ver el proyecto en tu máquina local, sigue estos pasos:
     git clone [https://github.com/AdriaGar/Projecte-ecomerce-DAM.git](https://github.com/AdriaGar/Projecte-ecomerce-DAM.git)
     ```
 2.  **Abre el archivo principal:**
-    Navega a la carpeta del proyecto y abre `paginaPrincipal.html` en cualquier navegador moderno.
+    Navega a la carpeta del proyecto y abre `index.html` en cualquier navegador moderno.
+
+---
+
+## Ver en Línea
+Puedes ver la página funcionando directamente en: [https://adriagar.github.io/Dual_Game/](https://adriagar.github.io/Dual_Game/)
 
 ---
 
